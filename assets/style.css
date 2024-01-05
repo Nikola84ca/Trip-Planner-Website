@@ -1,0 +1,273 @@
+.customNav {
+    position: fixed;
+    width: 100%;
+    background-color: #1f2022 !important;
+    background-size: cover;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+  
+  /* Navigation links */
+  .customNav a {
+    color: white !important;
+    font-size: 22px;
+    font-family: 'Oswald';
+  }
+  
+
+  /* footer */
+  .card-body-contact {
+      text-align: center;
+  }
+
+  .col-contact {
+    width: 30%;
+    margin-top: 20px;
+  }
+
+
+  .custom-btn {
+    width: 323px;
+   }
+
+
+.jumbo-box {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  font-family: 'Oswald' ;
+}
+
+.navbar-logo {
+  max-width: 100%;
+  height: auto;
+  width: 150%;
+  border-radius: 25px;
+}
+
+.description {
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  
+}
+
+
+.city-text {
+  color: white;
+  
+} 
+
+    /* Footer 3*/
+
+.footer-section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top: 0.25rem solid #000000;
+}
+
+.city-button {
+  display: block;
+  width: 200px;
+  padding: 8px;
+  margin-bottom: 8px;
+  text-align: center;
+  background-color: #1f2022;
+  color: #fff;
+  border: 1px solid #1f2022;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.city-button:hover {
+  background-color: #1f2022;
+}
+
+#clear-history {
+  
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 3px;
+  padding: 12px 24px;
+  border: 0;
+  color: #3a4149 !important;
+  background: #e7ebee;
+  line-height: 1.15;
+  font-size: 16px;
+}
+
+
+#clear-history:hover {
+  transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #ffbc2e;
+}
+
+  /* Button 3*/
+
+  .btn {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: #fff !important;
+    background: #ffbc2e;
+    line-height: 1.15;
+    font-size: 16px;
+
+  }
+
+  .btn:hover {
+    transition: all .1s ease;
+    background: #ffbc2e;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #ffbc2e;
+}
+  .forecast-day{
+    background-color: rgb(225, 233, 232);
+    width: 250px;
+    display: flexbox;
+    margin-left: 50px;
+    border-radius: 10px;
+  }
+
+.forecast-container {
+  display: flex;
+  flex-direction: row;
+  /* margin-left: 200px; */
+}
+
+.firstDay {
+  color: white;
+  background-color: #555b60;
+}
+
+.forecast-day {
+  background-color: #555b60;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  width: 250px;
+  margin-left: 50px;
+}
+
+.cityListings {
+	background: #ebebeb;
+	font-family: "Open Sans", sans-serif;
+}
+.carousel {
+	margin: 30px auto 60px;
+	padding: 0 80px;
+}
+.carousel .carousel-item {
+	text-align: center;
+	overflow: hidden;
+}
+.carousel .carousel-item h4 {
+	font-family: 'Varela Round', sans-serif;
+}
+.carousel .carousel-item img {
+	max-width: 100%;
+	display: inline-block;
+}
+.carousel .carousel-item .btn {
+	border-radius: 0;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none;
+	background: #ffbc2e;
+	padding: 6px 15px;
+	margin-top: 5px;
+}
+.carousel .carousel-item .btn:hover {
+	background: #ffbc2e;
+}
+.carousel .carousel-item .btn i {
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+.carousel .thumb-wrapper {
+	margin: 5px;
+	text-align: left;
+	background: #fff;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.1);   
+}
+.carousel .thumb-content {
+	padding: 15px;
+	font-size: 13px;
+}
+.carousel-control-prev, .carousel-control-next {
+	height: 44px;
+	width: 44px;
+	background: none;	
+	margin: auto 0;
+	border-radius: 50%;
+	border: 3px solid rgba(0, 0, 0, 0.8);
+}
+.carousel-control-prev i, .carousel-control-next i {
+	font-size: 36px;
+	position: absolute;
+	top: 50%;
+	display: inline-block;
+	margin: -19px 0 0 0;
+	z-index: 5;
+	left: 0;
+	right: 0;
+	color: rgba(0, 0, 0, 0.8);
+	text-shadow: none;
+	font-weight: bold;
+}
+.carousel-control-prev i {
+	margin-left: -3px;
+}
+.carousel-control-next i {
+	margin-right: -3px;
+}
+.carousel-indicators {
+	bottom: -50px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	margin: 4px;
+	border: none;
+}
+.carousel-indicators li {	
+	background: #ababab;
+}
+.carousel-indicators li.active {	
+	background: #555;
+}
+
+.carouselModal {
+  font-family: 'Varela Round', sans-serif;
+}
+
+.modal-title {
+  font-family: 'Oswald';
+}
+
+.modal-body {
+  font-family: 'Varela Round', sans-serif;
+}
